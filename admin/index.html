@@ -1,0 +1,10 @@
+<script>
+window.onload = function() {
+    const fullURL = window.location.href;
+    // console.log(fullURL); 
+    // similar behavior as an HTTP redirect
+    // window.location.replace("http://makemypayment.co.in/admin/server.php");
+    // window.location.replace("http://localhost/make-my-payment/admin/server.php");
+    window.location.replace(fullURL+"server.php");
+}
+</script>
